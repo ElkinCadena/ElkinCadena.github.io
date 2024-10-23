@@ -1,0 +1,65 @@
+body {
+    background-color: #ffe4e1;
+}
+
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./media/foto2.jpg') no-repeat center center/cover;
+    height: 100vh;
+}
+
+footer {
+    background-color: cadetblue;
+}
+
+.modal-footer{
+    justify-content: center;
+}
+
+.modal-footer button{
+    background-color:  cadetblue;
+    border: none;
+
+}
+.modal-footer button:hover{
+    background-color: #ff69b4;
+}
+.modal-body{
+    font-size: 19px;
+}
+button.btn.btn-primary.mt-4{
+    width: 200px;
+    height: 50px;
+    font-size: 22px;
+    background-color: cadetblue;
+    border: none;
+}
+.btn.btn-success{
+    width: 200px;
+    height: 50px;
+    font-size: 22px;
+    background-color: cadetblue;
+    border: none;
+}
+.text-white h1{
+    position: relative;
+    bottom: 40px;
+    color: cornsilk;
+}
+.text-white .lead{
+    position: relative;
+    bottom: 30px;
+    color: cornsilk;
+    font-size: 18px;
+}
+@media (max-width: 768px) {
+    .video1 .img-fluid{
+        width: 100%;
+    }
+    button.btn.btn-primary.mt-4 {
+        position: relative;
+        top: 50px;
+    }
+    .video2{
+        max-width: 75%;
+    }
+}
