@@ -62,4 +62,14 @@ button.btn.btn-primary.mt-4{
     .video2{
         max-width: 75%;
     }
+    .hero{
+        height: auto;
+    }
+    .text-white h1 {
+    bottom: 0;   
+}
+    .text-white .lead {
+    top: 60px;
+}
+    
 }
